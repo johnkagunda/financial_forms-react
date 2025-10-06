@@ -2,7 +2,7 @@
 
 A modern React frontend application for the ACTSERV Financial Onboarding platform, providing an intuitive interface for dynamic form building and client onboarding management.
 
-## 🚀 Features
+##  Features
 
 - **Dual Portal Architecture**: Separate admin and client experiences
 - **Dynamic Form Builder**: Intuitive drag-and-drop form creation interface
