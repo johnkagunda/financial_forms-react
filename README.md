@@ -1,4 +1,4 @@
-# ACTSERV Financial Onboarding - Frontend 🎨
+# ACTSERV Financial Onboarding - Frontend 
 
 A modern React frontend application for the ACTSERV Financial Onboarding platform, providing an intuitive interface for dynamic form building and client onboarding management.
 
@@ -13,7 +13,7 @@ A modern React frontend application for the ACTSERV Financial Onboarding platfor
 - **TypeScript Safety**: Full type safety with comprehensive interfaces
 - **Modern UI/UX**: Google Forms-inspired design with professional styling
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework**: React 19.1.1 with TypeScript
 - **Routing**: React Router DOM v7.9.3
@@ -23,7 +23,7 @@ A modern React frontend application for the ACTSERV Financial Onboarding platfor
 - **State Management**: React Hooks (useState/useEffect)
 - **Development**: ESLint + TypeScript for code quality
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running the application, ensure you have:
 
@@ -31,7 +31,7 @@ Before running the application, ensure you have:
 - **npm**: Version 8.0.0 or higher (comes with Node.js)
 - **Django Backend**: The backend API server running on `http://localhost:8000`
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone and Navigate to Project
 
@@ -262,7 +262,7 @@ Strong typing is enforced throughout the application:
 }
 ```
 
-## 🧪 Development Scripts
+## Development Scripts
 
 ```bash
 # Development server with hot reload
@@ -281,7 +281,7 @@ npm run build
 npm run preview
 ```
 
-## 🎨 Styling and Theming
+##  Styling and Theming
 
 ### Design System
 
@@ -337,7 +337,7 @@ Components use modular CSS classes for maintainability:
 }
 ```
 
-## 🔒 Security Considerations
+## Security Considerations
 
 ### API Security
 - **CORS Configuration**: Backend CORS settings allow frontend domain
@@ -420,7 +420,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-## 📊 Performance Optimization
+##  Performance Optimization
 
 ### Build Optimization
 - **Tree Shaking**: Vite automatically removes unused code
@@ -483,7 +483,7 @@ api.interceptors.response.use(response => {
 });
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 ### Development Setup
 
@@ -502,26 +502,3 @@ api.interceptors.response.use(response => {
 - **Naming**: PascalCase for components, camelCase for functions
 - **CSS**: Use CSS custom properties, avoid inline styles
 - **Imports**: Organize imports (React first, then libraries, then local)
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- **Documentation**: See [DESIGN_DECISIONS.md](DESIGN_DECISIONS.md) for architecture details
-- **Issues**: Create GitHub issues for bugs or feature requests
-- **API Documentation**: Check backend API documentation for integration details
-
-## 🙏 Acknowledgments
-
-- **React Team** - For the excellent React framework
-- **Vite Team** - For the lightning-fast build tool
-- **TypeScript Team** - For bringing type safety to JavaScript
-- **ACTSERV Financial Services** - For supporting modern development practices
-
----
-
-**ACTSERV Financial Onboarding Frontend** - Modern, intuitive, and professional form management interface.
-
-*Built with ❤️ using React, TypeScript, and Vite*
