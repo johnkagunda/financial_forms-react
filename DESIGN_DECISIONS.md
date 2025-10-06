@@ -1,4 +1,4 @@
-# Frontend Design Decisions Documentation 🎨
+# Frontend Design Decisions Documentation 
 
 This document outlines the key architectural and technical decisions made in building the React frontend for the ACTSERV Financial Onboarding dynamic form management system.
 
@@ -14,9 +14,9 @@ This document outlines the key architectural and technical decisions made in bui
 - [User Experience Design](#user-experience-design)
 - [Performance Considerations](#performance-considerations)
 
----
 
-## Frontend Framework Choice 🚀
+
+## Frontend Framework Choice 
 
 ### Decision: React 19 with TypeScript + Vite
 **Chosen Technology**: React 19.1.1 with TypeScript and Vite build system
@@ -38,9 +38,8 @@ This document outlines the key architectural and technical decisions made in bui
 - **Cons**: Heavy framework, steep learning curve, overkill for focused form application
 - **Verdict**: React provides better flexibility for dynamic form requirements
 
----
 
-## Routing Architecture 🗺️
+## Routing Architecture 
 
 ### Decision: React Router DOM with Nested Routes
 **Chosen Approach**: React Router v7.9.3 with dual-mode routing (Admin/Client)
@@ -73,7 +72,7 @@ This document outlines the key architectural and technical decisions made in bui
 
 ---
 
-## State Management Strategy 📊
+## State Management Strategy 
 
 ### Decision: React Hooks + Local State (No Redux)
 **Chosen Approach**: useState + useEffect with component-level state management
@@ -214,7 +213,7 @@ export default api;
 
 ---
 
-## TypeScript Implementation 📝
+## TypeScript Implementation 
 
 ### Decision: Strict TypeScript with Interface-First Design
 **Chosen Approach**: Strong typing with explicit interfaces for all data models
@@ -251,7 +250,7 @@ export interface Form {
 
 ---
 
-## Build Tools 🛠️
+## Build Tools 
 
 ### Decision: Vite with Modern Build Pipeline
 **Chosen Technology**: Vite 6.0+ with TypeScript and ESLint
@@ -292,7 +291,7 @@ export default defineConfig({
 
 ---
 
-## User Experience Design 🎯
+## User Experience Design 
 
 ### Decision: Dual-Portal Architecture with Role-Based UI
 **Chosen Approach**: Separate Admin and Client experiences with mode switching
@@ -316,7 +315,7 @@ export default defineConfig({
 
 ---
 
-## Performance Considerations ⚡
+## Performance Considerations 
 
 ### Decision: Client-Side Rendering with Performance Optimizations
 **Chosen Approach**: SPA with lazy loading and efficient re-rendering
@@ -353,7 +352,7 @@ export default defineConfig({
 
 ---
 
-## Future Considerations 🔮
+## Future Considerations 
 
 ### Short-term Enhancements
 - **Form Validation**: Real-time client-side validation with error messages
