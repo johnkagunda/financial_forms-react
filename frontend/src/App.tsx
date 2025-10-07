@@ -41,7 +41,7 @@ function App() {
                     onClick={() => setShowNotifications((v) => !v)}
                     aria-label="Toggle notifications"
                   >
-                    🔔 Notifications
+                     Notifications
                   </button>
                   {showNotifications && (
                     <div style={{ position: 'absolute', right: 0, top: '48px', zIndex: 99 }}>
@@ -69,7 +69,7 @@ function App() {
                   }}
                   className={`toggle-button ${mode === "client" ? "active" : ""}`}
                 >
-                  <span className="toggle-icon">👤</span>
+                  <span className="toggle-icon"></span>
                   Client Portal
                 </button>
               </div>
@@ -104,7 +104,7 @@ function App() {
                 Dynamic Onboarding Platform v2.0
               </p>
               <p className="footer-subtext">
-                🔒 SOC 2 Compliant • 📊 Real-time Analytics • 🚀 Scalable Architecture
+                 SOC 2 Compliant • Real-time Analytics •  Scalable Architecture
               </p>
             </div>
             <div className="footer-links">
@@ -136,7 +136,7 @@ const AdminLayout = () => {
               <p className="sidebar-subtitle">Create & configure onboarding forms</p>
             </div>
             <span className={`status-badge ${formId ? 'editing' : 'viewing'}`}>
-              {formId ? "✏️ Editing" : "👁️ Viewing"}
+              {formId ? " Editing" : " Viewing"}
             </span>
           </div>
           
@@ -167,7 +167,7 @@ const AdminLayout = () => {
           <div className="empty-state">
             <div className="empty-state-content">
               <div className="empty-state-icon">
-                <span>📋</span>
+                <span></span>
               </div>
               <h3 className="empty-state-title">Form Builder Dashboard</h3>
               <p className="empty-state-text">
@@ -178,22 +178,22 @@ const AdminLayout = () => {
                 <h4>Powerful Form Features:</h4>
                 <div className="feature-grid">
                   <div className="feature-card">
-                    <span className="feature-icon">🔧</span>
+                    <span className="feature-icon"></span>
                     <h5>Dynamic Field Types</h5>
                     <p>Text, numbers, dates, dropdowns, checkboxes, file uploads</p>
                   </div>
                   <div className="feature-card">
-                    <span className="feature-icon">⚡</span>
+                    <span className="feature-icon"></span>
                     <h5>Conditional Logic</h5>
                     <p>Show/hide fields based on previous answers</p>
                   </div>
                   <div className="feature-card">
-                    <span className="feature-icon">📊</span>
+                    <span className="feature-icon"></span>
                     <h5>Real-time Validation</h5>
                     <p>Custom validation rules and error messages</p>
                   </div>
                   <div className="feature-card">
-                    <span className="feature-icon">🔔</span>
+                    <span className="feature-icon"></span>
                     <h5>Smart Notifications</h5>
                     <p>Instant alerts for new submissions</p>
                   </div>
@@ -228,7 +228,7 @@ const ClientFormWrapper = () => {
         <div className="client-content">
           <div className="client-empty-state">
             <div className="client-empty-icon">
-              <span>📋</span>
+              <span></span>
             </div>
             <h3 className="client-empty-title">Form Not Found</h3>
             <p className="client-empty-text">
@@ -276,13 +276,13 @@ const NotFound = () => {
               onClick={() => window.location.href = '/admin'}
               className="action-button primary"
             >
-              ⚙️ Go to Admin Portal
+               Go to Admin Portal
             </button>
             <button
               onClick={() => window.location.href = '/client'}
               className="action-button secondary"
             >
-              👤 Go to Client Forms
+               Go to Client Forms
             </button>
           </div>
         </div>
